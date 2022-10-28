@@ -85,8 +85,8 @@ class ListCategoriesActivity : AppCompatActivity() {
                                     dataApi.strThumbnail = jsonObjectList.getString("thumb")
                                     dataApi.strKeyResep = jsonObjectList.getString("key")
                                     dataApi.strTimes = jsonObjectList.getString("times")
-                                    dataApi.strPortion = jsonObjectList.getString("portion")
-                                    dataApi.strDificulty = jsonObjectList.getString("dificulty")
+                                    dataApi.strPortion = jsonObjectList.getString("serving")
+                                    dataApi.strDificulty = jsonObjectList.getString("difficulty")
                                     modelCategoriesList.add(dataApi)
                                 }
                                 listCategoriesAdapter?.notifyDataSetChanged()
